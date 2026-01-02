@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Terra Boa — Felipe Rocha</title>
+  <meta name="description" content="Terra Boa — documentary film and original soundtrack by Felipe Rocha.">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Inter+Mono&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --bg: #F5F5F3;
+      --text: #111111;
+      --muted: #777;
+      --accent: #2F3E3A;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: 'Inter', Arial, sans-serif;
+      line-height: 1.6;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 96px;
+    }
+
+    @media (max-width: 768px) {
+      .container { padding: 32px 24px; }
+    }
+
+    h1 {
+      font-size: 2.6rem;
+      font-weight: 400;
+      margin: 0 0 16px 0;
+    }
+
+    .subtitle {
+      font-family: 'Inter Mono', monospace;
+      font-size: 0.8rem;
+      color: var(--muted);
+      margin-bottom: 64px;
+    }
+
+    .text {
+      max-width: 560px;
+      margin-bottom: 64px;
+    }
+
+    .text p {
+      margin: 0 0 16px 0;
+    }
+
+    .list {
+      font-family: 'Inter Mono', monospace;
+      font-size: 0.8rem;
+      margin-bottom: 96px;
+    }
+
+    .list div {
+      margin-bottom: 8px;
+    }
+
+    .media {
+      margin-bottom: 96px;
+    }
+
+    .media img,
+    .media video {
+      max-width: 100%;
+      display: block;
+    }
+
+    .external {
+      font-family: 'Inter Mono', monospace;
+      font-size: 0.8rem;
+    }
+
+    .external a {
+      color: var(--text);
+      text-decoration: none;
+    }
+
+    .external a:hover { color: var(--accent); }
+
+    .back {
+      margin-top: 160px;
+      font-family: 'Inter Mono', monospace;
+      font-size: 0.75rem;
+    }
+
+    .back a {
+      color: #666;
+      text-decoration: none;
+    }
+
+    .back a:hover { color: var(--text); }
+  </style>
+</head>
+
+<body>
+  <main class="container">
+
+    <h1>Terra Boa</h1>
+    <div class="subtitle">Documentary film · original soundtrack</div>
+
+    <!-- TEXT -->
+    <section class="text">
+      <p>
+        Terra Boa is a documentary film directed by Felipe Rocha, centered on
+        land, memory and ways of inhabiting time. The work approaches its subject
+        through attention rather than explanation.
+      </p>
+      <p>
+        The original soundtrack was composed as an extension of the film’s rhythm,
+        treating sound as presence and continuity rather than illustration.
+      </p>
+    </section>
+
+    <!-- DETAILS -->
+    <section class="list">
+      <div>Role — director, composer</div>
+      <div>Format — documentary film + original score</div>
+      <div>Status — completed</div>
+    </section>
+
+    <!-- MEDIA -->
+    <section class="media">
+      <!-- Use one still OR one trailer -->
+      <img src="../assets/img/works/terra-boa.jpg" alt="Terra Boa — film still">
+      <!--
+      <video controls>
+        <source src="../assets/video/terra-boa-trailer.mp4" type="video/mp4">
+      </video>
+      -->
+    </section>
+
+    <!-- EXTERNAL -->
+    <section class="external">
+      <a href="#" target="_blank">Film / soundtrack — external link</a>
+    </section>
+
+    <div class="back">
+      <a href="../works.html">← Back to works</a>
+    </div>
+
+  </main>
+</body>
+</html>
