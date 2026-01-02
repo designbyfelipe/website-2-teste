@@ -25,3 +25,137 @@
     body {
       margin: 0;
       background: var(--bg);
+      color: var(--text);
+      font-family: 'Inter', Arial, sans-serif;
+      line-height: 1.6;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 96px;
+    }
+
+    @media (max-width: 768px) {
+      .container {
+        padding: 32px 24px;
+      }
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      font-weight: 400;
+      margin: 0 0 16px 0;
+    }
+
+    .subtitle {
+      font-size: 1rem;
+      color: #555;
+      margin-bottom: 48px;
+      max-width: 520px;
+    }
+
+    .description {
+      max-width: 520px;
+      margin-bottom: 48px;
+    }
+
+    .description p {
+      margin: 0 0 12px 0;
+    }
+
+    .metadata {
+      font-family: 'Inter Mono', monospace;
+      font-size: 0.8rem;
+      color: #666;
+      margin-bottom: 64px;
+    }
+
+    .media {
+      margin-top: 64px;
+      max-width: 720px;
+    }
+
+    .media img,
+    .media video {
+      width: 100%;
+      display: block;
+    }
+
+    .external-link {
+      margin-top: 32px;
+      font-family: 'Inter Mono', monospace;
+      font-size: 0.8rem;
+    }
+
+    .external-link a {
+      color: var(--text);
+      text-decoration: none;
+      border-bottom: 1px solid #ccc;
+      padding-bottom: 2px;
+    }
+
+    .external-link a:hover {
+      color: var(--accent);
+      border-color: var(--accent);
+    }
+
+    .back {
+      margin-top: 160px;
+      font-family: 'Inter Mono', monospace;
+      font-size: 0.75rem;
+    }
+
+    .back a {
+      color: #666;
+      text-decoration: none;
+    }
+
+    .back a:hover {
+      color: var(--text);
+    }
+  </style>
+</head>
+
+<body>
+  <main class="container">
+    <h1>DESCANSO</h1>
+    <div class="subtitle">
+      Sound work · duration and rest
+    </div>
+
+    <section class="description">
+      <p>
+        DESCANSO is a sound piece centered on the idea of rest as an active state.
+      </p>
+      <p>
+        The work explores extended duration, reduced musical gestures and attention to silence.
+      </p>
+      <p>
+        Listening is treated not as consumption, but as presence.
+      </p>
+    </section>
+
+    <div class="metadata">
+      2024<br>
+      Sound · Installation / Listening piece<br>
+      Duration: variable
+    </div>
+
+    <section class="media">
+      <!-- Replace with your image or video -->
+      <img src="images/descanso.jpg" alt="DESCANSO — still image">
+      <!-- or -->
+      <!-- <video src="videos/descanso.mp4" controls></video> -->
+    </section>
+
+    <div class="external-link">
+      <a href="#" target="_blank">Listen on Bandcamp</a>
+    </div>
+
+    <div class="back">
+      <a href="index.html">← Back</a>
+    </div>
+  </main>
+</body>
+</html>
